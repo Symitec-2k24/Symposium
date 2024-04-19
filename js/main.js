@@ -411,7 +411,7 @@ $(window).load(function(){
 setTimeout(function(){
     $pre_para.addClass("invisible");
     $post_para.fadeIn(600);
-    $digm.css("transform", "scale(0.5)","width": "100%").html("cy<br>ai<br>itec<br>");
+    $digm.css("transform", "scale(0.5)","width": "100%").html("itec<br>cs<br>ai<br>");
 }, 4000);
 	
 });
