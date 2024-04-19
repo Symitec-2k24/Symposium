@@ -407,7 +407,12 @@ $(window).load(function(){
    setTimeout(function(){$pre_para.shuffleLetters({ "text": "into the" });$digm.shuffleLetters({ "text": "dise" });$digm.text("digm");},2000);
    setTimeout(function(){$pre_para.shuffleLetters({ "text": "of a new" });$digm.shuffleLetters({ "text": "digm" });$digm.text("digm");},3000);
 
-   setTimeout(function(){$pre_para.addClass("invisible");$post_para.fadeIn(600); $digm.text("itec");},4000);
+   // setTimeout(function(){$pre_para.addClass("invisible");$post_para.fadeIn(600); $digm.text("itec");},4000);
+	setTimeout(function(){
+    $pre_para.addClass("invisible");
+    $post_para.fadeIn(600);
+    $digm.css("transform", "scale(0.5)").html("cy<br>ai<br>itec<br>");
+}, 4000);
 });
 
   window.addEventListener("orientationchange",function(){location.reload();}, false);
