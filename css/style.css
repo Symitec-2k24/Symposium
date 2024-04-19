@@ -214,15 +214,52 @@ body {
   box-sizing: border-box;
 }
 
+
+
+
+
+@media screen and (min-width: 800px) {
+  .digm {
+    font-size: 6rem; /* Adjust font size for screens less than or equal to 800px */
+  }
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .digm {
+    font-size: 6rem; /* Adjust font size for screens less than or equal to 800px */
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .digm {
+    font-size: 9rem; /* Adjust font size for screens less than or equal to 750px */
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .digm {
+    font-size: 10rem; /* Adjust font size for screens less than or equal to 550px */
+  }
+}
+
+
 .digm {
   float: right;
   height: 0px;
   width: 50%;
   box-sizing: border-box;
-  font-size: 10em;
+  font-size: 6em;
   color: #f5f5f5;
   font-family: 'Exo2.0-Thin', sans-serif;
 }
+
+
+
+
+
+
 
 .post-para {
   text-align: right;
